@@ -1,0 +1,71 @@
+/* CSS GENERAL STYLING BELOW */
+
+.ktbio {
+  background: violet;
+  border-radius: 50%;
+  margin: 6em auto 0 auto;
+  height: 100px;
+  width: 100px;
+  animation: ball 5s infinite;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+
+@keyframes ball {
+  
+  0% {
+    opacity: .25;
+    transform: scale(.5);
+  }
+  
+  50% {
+    opacity: .5;
+     transform: scale(2);
+  }
+  
+  100% { 
+    opacity: 1;
+     transform: scale(.5);
+  }
+/* DO NOT DELETE BRACKET BELOW */  
+}
+
+
+
+/* DIAGNOSTIC STYLING BELOW */
+
+
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+
+}
