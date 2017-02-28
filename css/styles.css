@@ -1,0 +1,40 @@
+/* CSS GENERAL STYLING BELOW */
+header {
+  background: rgba(255, 0, 0, 0);
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.ktbio {
+  background: violet;
+  border-radius: 50%;
+  margin: 6em auto 0 auto;
+  height: 100px;
+  width: 100px;
+  animation: ball 5s infinite;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Animations */
+@keyframes ball {
+  
+  0% {
+    opacity: .25;
+    transform: scale(.5);
+  }
+  
+  50% {
+    opacity: .5;
+     transform: scale(2);
+  }
+  
+  100% { 
+    opacity: 1;
+     transform: scale(.5);
+  }
+  
+  
+}
