@@ -6,9 +6,6 @@
   float: left;
   position: relative;
   margin: 10px;
-  height: 50px;
-  width: 50px;
-  display: block;
   list-style: none;
   position: fixed;
   top: 0;
@@ -18,20 +15,16 @@
 }
 
 nav a {
-  color: black;
+  color: darkblue;
   text-decoration: none;
 }
 
-.sub-menu-parent { 
-  background: lightcyan;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  font-size: 2em;
-  line-height: 70px;
-  list-style: none;
-  position: relative; 
-  border-radius: 50%;
+.sub-menu-parent {
+    background: lightcyan;
+    font-size: 2em;
+    line-height: 70px;
+    list-style: none;
+    position: relative;
 }
 
 .sub-menu { 
@@ -52,15 +45,16 @@ nav a {
 }
 
 .sub-menu-link {
-  font-size: 70%;
+  font-size: 60%;
 }
 
 /* NAVIGATION END */
 
 .front-page {
-  height: 500px;
-  width: 500px;
-  margin: 20px;
-  position: fixed;
-  left: 8em;
+    background: lightcyan;
+    background-image: radial-gradient(rgb(254,171,230), #fff);
+    width: 500px;
+    margin: 20px;
+    position: relative;
+    left: 8em;
 }
