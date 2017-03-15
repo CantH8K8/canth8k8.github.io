@@ -1,60 +1,31 @@
-/* NAVIGATION START */
+/* Bio Stylings*/
 
-.main-nav {
-  color: #000066;
-  display: inline-block;
-  float: left;
-  position: relative;
-  margin: 10px;
-  list-style: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 1em;
-  margin: 2px;
+#bio {
+  
+  background: #A1C0B6;
+  background-image: radial-gradient(#F9EED3, #A1C0B6);
+  color: #081B28;
+  margin: ;
+/*  arbitrary width  */
+  width: 100%;
 }
 
-nav a {
-  color: darkblue;
-  text-decoration: none;
+#bio header {
+  display: flex;
+  justify-content: space-between;
 }
 
-.sub-menu-parent {
-    background: lightcyan;
-    font-size: 2em;
-    line-height: 70px;
-    list-style: none;
-    position: relative;
+#bio header section {
+  background: rgba(249, 238, 211, 0.55);
+  border-radius: 45%;
+  transition: border-radius 1s;
 }
 
-.sub-menu { 
-  position: fixed;
-  left: -.9em;
-  list-style: none;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s ease-in-out
+#bio article {
+  display: flex;
+  flex-flow: wrap row;
 }
 
-.sub-menu-parent:hover .sub-menu {
-  visibility: visible;
-  opacity: 1;
-  z-index: 1;
-  transform: translateY(0%);
-  transition-delay: 0s, 0s, 0.3s; 
-}
-
-.sub-menu-link {
-  font-size: 60%;
-}
-
-/* NAVIGATION END */
-
-.front-page {
-    background: lightcyan;
-    background-image: radial-gradient(rgb(254,171,230), #fff);
-    width: 500px;
-    margin: 20px;
-    position: relative;
-    left: 8em;
+#bio article section {
+  flex: 1 20%;
 }
