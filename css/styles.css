@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* NAVIGATION START */
 
 .main-nav {
@@ -23,25 +24,37 @@ nav a {
     line-height: 70px;
     list-style: none;
     position: relative;
+=======
+/* Bio Stylings*/
+
+#bio {
+  
+  background: #A1C0B6;
+  background-image: radial-gradient(#F9EED3, #A1C0B6);
+  color: #081B28;
+  margin: ;
+/*  arbitrary width  */
+  width: 100%;
 }
 
-.sub-menu { 
-  position: fixed;
-  left: -.9em;
-  list-style: none;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s ease-in-out
+#bio header {
+  display: flex;
+  justify-content: space-between;
+>>>>>>> origin/master
 }
 
-.sub-menu-parent:hover .sub-menu {
-  visibility: visible;
-  opacity: 1;
-  z-index: 1;
-  transform: translateY(0%);
-  transition-delay: 0s, 0s, 0.3s; 
+#bio header section {
+  background: rgba(249, 238, 211, 0.55);
+  border-radius: 45%;
+  transition: border-radius 1s;
 }
 
+#bio article {
+  display: flex;
+  flex-flow: wrap row;
+}
+
+<<<<<<< HEAD
 .sub-menu-link {
   font-size: 60%;
 }
@@ -72,4 +85,8 @@ footer {
 .bio-p {
     display: inline-flex;
     justify-content: space-around;
+=======
+#bio article section {
+  flex: 1 20%;
+>>>>>>> origin/master
 }
