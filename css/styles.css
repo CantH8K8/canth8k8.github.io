@@ -4,29 +4,38 @@
 
 
 body {
-  height: 1000px;
-  margin-top: 4em;
   display: flex;
-  flex-flow: row wrap;
-  align-content: center;
+  flex-flow: wrap;
 }
 
 p {
+    display: flex;
     font-family: 'Amiko', sans-serif;
+    width: 500px;
+    flex-flow: nowrap column;
+    width: 500px;
+    margin: 2em
 }
 
 blockquote {
     font-family: 'Kalam', cursive;
+    margin-left: 5em;
+}
+
+.img-kt {
 }
 
 nav {
+  color: white;
   background: transparent;
-  background-image: linear-gradient(to right top, pink, white);
-  border-radius: 6px;
+  background-image: linear-gradient(to right, pink, transparent);
   height: 100px;
   width: 100%;
   position: fixed;
   top: 0;
+  width: 100px;
+  height: 100%;
+  left: 0;
 }
 
 nav a {
@@ -34,7 +43,7 @@ nav a {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 90px;
   width: 90px;
   color: black;
@@ -64,21 +73,13 @@ h1 {
     position: relative;
     float: top;
     font-family: 'Nova Oval', cursive;
+    margin-left: 2em;
 }
 
 form {
     display: flex;
     flex-flow: column wrap;
     padding-left: .5em;
-}
-
-label {
-    padding: .5em;
-}
-
-input {
-    padding: .2em;
-    margin: .5em;
 }
 
 
@@ -88,10 +89,11 @@ article {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+    align-content: center;
 }
 
 article section {
-  padding: 1em;
+
   margin-right: 10px;
   width: 20%;
 }
@@ -101,7 +103,7 @@ article section {
   margin: 0;
   padding: 1em;
   width: 12em;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
   
 .overlay {
