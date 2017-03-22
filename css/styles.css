@@ -15,12 +15,10 @@
 }
 
 nav a {
-  color: darkblue;
   text-decoration: none;
 }
 
 .sub-menu-parent {
-    background: lightcyan;
     font-size: 2em;
     line-height: 70px;
     list-style: none;
@@ -57,4 +55,21 @@ nav a {
     margin: 20px;
     position: relative;
     left: 8em;
+}
+
+footer {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Bio Styling */
+
+.bio-body {
+    
+}
+
+.bio-p {
+    display: inline-flex;
+    justify-content: space-around;
 }
